@@ -1,24 +1,17 @@
-import random
-vibor1=0
-vibor2=0
-for c in range(0,100000):
-    dver = random.randrange(1, 4)
-    zritel = random.randrange(1, 4)
-    if(dver==zritel):
-        vibor1+=1
-    if ((zritel==1) and (dver==1)) or ((zritel==1) and (dver==3)) or ((zritel==3) and (dver==1)):
-        shoy=2
-    elif ((zritel==1) and(dver==2)) or ((zritel==2) and (dver==1)) or ((zritel==2) and (dver==2)):
-        shoy=3
-    elif ((zritel==3)and(dver==2)) or ((zritel==2) and (dver==3)) or ((zritel==3) and (dver==3)):
-        shoy=1
-    if ((shoy==1) and (zritel==2)):
-        zritel=3
-    elif ((shoy==2) and (zritel==3)):
-        zritel=1
-    elif ((shoy==1) and (zritel==3)):
-        zritel=2
-    if(zritel==dver):
-        vibor2+=1
-print(vibor1, vibor2)
+# This is a sample Python script.
 
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+123456546
