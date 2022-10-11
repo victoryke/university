@@ -26,7 +26,7 @@ def change_num():
     name = get_name()
     number = get_num()
     if name in numbers.keys()
-    numbers[name]=number
+        numbers[name]=number
     else:
         print("неправильный номер")
 def delete_num():
