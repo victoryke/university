@@ -1,0 +1,7 @@
+from random import randint
+def creat(*args):
+    i=1
+    for a in kwargs:
+        i=a
+    return i
+
